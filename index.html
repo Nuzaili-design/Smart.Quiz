@@ -18,6 +18,7 @@
             height: 100vh;
             margin: 0;
             font-family: 'Arial', sans-serif;
+            flex-direction: column; /* This ensures the content is stacked vertically */
         }
         .container {
             text-align: center;
@@ -49,6 +50,24 @@
             margin-bottom: 20px;
             color: #ffffff;
         }
+
+        /* Footer styling */
+        footer {
+            
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            font-size: 0.9rem;
+           
+            bottom: 0;
+            left: 0;
+           
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -59,5 +78,10 @@
         <p>Test your knowledge with our quiz. <br> Click the button below to start.</p>
         <a href="start.html" class="btn btn-dark btn-lg">Start Quiz</a>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; <a href="#">Abdulaziz Alnuzaili</a> - All rights reserved</p>
+    </footer>
 </body>
 </html>
